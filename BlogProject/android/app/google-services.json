@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824400829891",
+    "project_id": "mycalendar-8e9f4"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824400829891:android:2d64f24be9986654",
+        "android_client_info": {
+          "package_name": "com.mycalendar.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824400829891-pshb0kudv6rc6teoi21l76u7ff41s7q4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycalendar.app",
+            "certificate_hash": "3DE7D2A88EBABA0C14B3703B9171B7B51E9CA324"
+          }
+        },
+        {
+          "client_id": "824400829891-488lpiqle97frsidbgpt6hcjsfdhkv0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7NtUIbbbUCVKmNwjQ5gx-Xqz6TkID7ZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
