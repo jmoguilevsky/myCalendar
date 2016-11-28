@@ -5,12 +5,19 @@
  */
 
 import React, { Component } from 'react';
+
+import MyComponent from './Components/MyView';
+
 import {
   AppRegistry,
   StyleSheet,
   Text,
   View
 } from 'react-native';
+
+const names = [
+  'Melyta',
+]
 
 export default class BlogProject extends Component {
   render() {
@@ -19,13 +26,7 @@ export default class BlogProject extends Component {
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        {names.map(name => (<MyComponent name={name} key={name} />))}
       </View>
     );
   }

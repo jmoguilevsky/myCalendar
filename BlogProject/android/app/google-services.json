@@ -42,6 +42,45 @@
           "status": 1
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824400829891:android:df4cf346fa5d7b2a",
+        "android_client_info": {
+          "package_name": "com.blogproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824400829891-t9n1pli70c2fvpmgnk4e56iruvsmol0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogproject",
+            "certificate_hash": "3DE7D2A88EBABA0C14B3703B9171B7B51E9CA324"
+          }
+        },
+        {
+          "client_id": "824400829891-488lpiqle97frsidbgpt6hcjsfdhkv0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7NtUIbbbUCVKmNwjQ5gx-Xqz6TkID7ZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
     }
   ],
   "configuration_version": "1"
